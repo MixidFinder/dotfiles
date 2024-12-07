@@ -1,0 +1,12 @@
+line-length = 79
+indent-width = 4
+
+[lint] 
+select = ["I", "B", "DJ", "F", "FAST", "C90", "N", "E", "W", "C4", "SIM", "ANN"]
+
+[format]
+line-ending = "auto"
+
+indent-style = "space"
+
+quote-style = "single"
