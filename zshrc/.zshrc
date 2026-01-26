@@ -13,7 +13,7 @@ zstyle ':omz:update' mode auto
 
 ENABLE_CORRECTION="true"
 
-plugins=(git zsh-autosuggestions fast-syntax-highlighting sudo)
+plugins=(git zsh-autosuggestions sudo)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -32,15 +32,6 @@ alias ....='cd ../../../'
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
-## Gcc compile with flags ##
-alias gccfl='gcc -Wall -Werror -Wextra'
-## Clang format ##
-alias clfr='clang-format -i */*.c */*.h'
-alias clchck='clang-format -n */*.c */*.h'
-## Memory chck ##
-alias vlgr='valgrind --tool=memcheck --leak-check=yes'
-## cpp chck ##
-alias cppchck='cppcheck --enable=all --suppress=missingIncludeSystem'
 alias lg='lazygit'
 alias ld='lazydocker'
 alias lq="lazysql"
