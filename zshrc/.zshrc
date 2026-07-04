@@ -9,6 +9,9 @@ plugins=(git zsh-autosuggestions sudo)
 
 source $ZSH/oh-my-zsh.sh
 
+autoload -U promptinit; promptinit
+prompt pure
+
 cd ~
 
 # Aliases
@@ -31,3 +34,4 @@ alias lq="lazysql"
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - zsh)"
+eval "$(pyenv virtualenv-init -)"
