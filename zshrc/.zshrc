@@ -2,7 +2,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 zstyle ':omz:update' mode auto
-ZSH_THEME="gnzh
+ZSH_THEME="gnzh"
 
 ENABLE_CORRECTION="true"
 
