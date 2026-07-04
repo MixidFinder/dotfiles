@@ -36,4 +36,4 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init - zsh)"
 eval "$(pyenv virtualenv-init -)"
 export GOPATH="$HOME/go"
-export PATH="$PATH:$GOPATH/bin
+export PATH="$PATH:$GOPATH/bin"
