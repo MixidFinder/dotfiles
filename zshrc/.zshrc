@@ -2,15 +2,13 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 zstyle ':omz:update' mode auto
+ZSH_THEME="gnzh
 
 ENABLE_CORRECTION="true"
 
 plugins=(git zsh-autosuggestions sudo)
 
 source $ZSH/oh-my-zsh.sh
-
-autoload -U promptinit; promptinit
-prompt pure
 
 cd ~
 
